@@ -55,6 +55,8 @@ namespace Login
                 txtPassword.Text = "";
                 txtPassword1.Text = "";
                 txtUsername.Text = "";
+                checkBox1.Checked = false;
+                  
             }
             else
             {
