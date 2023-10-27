@@ -43,12 +43,12 @@
             // btnCancel
             // 
             btnCancel.Cursor = Cursors.Hand;
-            btnCancel.FlatAppearance.BorderColor = Color.OrangeRed;
+            btnCancel.FlatAppearance.BorderColor = Color.DodgerBlue;
             btnCancel.FlatAppearance.BorderSize = 2;
-            btnCancel.FlatAppearance.MouseOverBackColor = Color.MistyRose;
+            btnCancel.FlatAppearance.MouseOverBackColor = Color.AliceBlue;
             btnCancel.FlatStyle = FlatStyle.Flat;
             btnCancel.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            btnCancel.ForeColor = Color.OrangeRed;
+            btnCancel.ForeColor = Color.DodgerBlue;
             btnCancel.Location = new Point(55, 567);
             btnCancel.Name = "btnCancel";
             btnCancel.Size = new Size(424, 73);
@@ -59,7 +59,7 @@
             // 
             // btnLogin
             // 
-            btnLogin.BackColor = Color.OrangeRed;
+            btnLogin.BackColor = Color.DodgerBlue;
             btnLogin.Cursor = Cursors.Hand;
             btnLogin.FlatAppearance.BorderColor = SystemColors.Control;
             btnLogin.FlatAppearance.BorderSize = 0;
@@ -118,12 +118,12 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = Color.OrangeRed;
-            label1.Location = new Point(131, 88);
+            label1.ForeColor = Color.DodgerBlue;
+            label1.Location = new Point(96, 88);
             label1.Name = "label1";
-            label1.Size = new Size(272, 41);
+            label1.Size = new Size(343, 41);
             label1.TabIndex = 7;
-            label1.Text = "Registration Form";
+            label1.Text = "User Registration Form";
             // 
             // label4
             // 

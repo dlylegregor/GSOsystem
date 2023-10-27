@@ -51,10 +51,11 @@ namespace Login
             }
             else if (txtPass == txtPass1 || txtPass1 == txtPass)
             {
-                MessageBox.Show("You have been registered successfully.", "Registration Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("You have been registered successfully.", "Registration Complete", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 txtPassword.Text = "";
                 txtPassword1.Text = "";
                 txtUsername.Text = "";
+                checkBox1.Checked = false;
             }
             else
             {
